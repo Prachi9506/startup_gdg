@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Startup Ideas Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Global Startup Ideas Hub</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ideas">Ideas</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#success-stories">Success Stories</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Turn Your Vision Into Reality</h1>
+                <p>Discover innovative startup ideas, learn from success stories, and get the resources you need to build your dream company.</p>
+                <div class="hero-buttons">
+                    <a href="#ideas" class="btn primary">Explore Ideas</a>
+                    <a href="#roadmap" class="btn secondary">View Roadmap</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideas Section (Initially Hidden) -->
+        <section id="ideas" class="section hidden-section">
+            <h2>Startup Ideas by Region</h2>
+            <div class="region-selector">
+                <button class="region-btn active" data-region="india">India</button>
+                <button class="region-btn" data-region="usa">USA</button>
+                <button class="region-btn" data-region="europe">Europe</button>
+                <button class="region-btn" data-region="asia">Asia Pacific</button>
+            </div>
+            <div id="ideas-container" class="cards-container"></div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section id="success-stories" class="section hidden-section">
+            <h2>Success Stories</h2>
+            <div id="success-stories-container" class="success-stories-grid"></div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="section hidden-section">
+            <h2>Startup Roadmap</h2>
+            <div class="roadmap-container">
+                <div class="roadmap-timeline"></div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="section hidden-section">
+            <h2>Startup Resources</h2>
+            <div class="resources-tabs">
+                <button class="tab-btn active" data-tab="funding">Funding</button>
+                <button class="tab-btn" data-tab="legal">Legal</button>
+                <button class="tab-btn" data-tab="marketing">Marketing</button>
+                <button class="tab-btn" data-tab="tech">Technology</button>
+            </div>
+            <div class="resources-content">
+                <div id="funding-content" class="tab-content active">
+                    <div class="resources-grid">
+                        <div class="resource-card">
+                            <h3>Funding Sources</h3>
+                            <div id="fundingChart">
+                                <canvas></canvas>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <h3>Success Metrics</h3>
+                            <div id="metricsChart">
+                                <canvas></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Other tab contents -->
+                <div id="legal-content" class="tab-content"></div>
+                <div id="marketing-content" class="tab-content"></div>
+                <div id="tech-content" class="tab-content"></div>
+            </div>
+        </section>
+
+        <!-- Insights Section -->
+        <section id="insights" class="section hidden-section">
+            <h2>Industry Insights</h2>
+            <div class="table-container">
+                <table id="insights-table">
+                    <thead>
+                        <tr>
+                            <th>Industry</th>
+                            <th>Growth Rate</th>
+                            <th>Market Size</th>
+                            <th>Entry Barrier</th>
+                            <th>Success Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="section hidden-section">
+            <h2>Entrepreneurship Readiness Quiz</h2>
+            <div id="quiz-container">
+                <div id="question-container"></div>
+                <div id="options-container"></div>
+                <button id="next-btn" class="hidden">Next Question</button>
+                <div id="result-container" class="hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#ideas">Ideas</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#funding">Funding Guide</a></li>
+                    <li><a href="#legal">Legal Resources</a></li>
+                    <li><a href="#marketing">Marketing Tips</a></li>
+                    <li><a href="#tech">Tech Stack Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@startupideasshub.com</p>
+                <p>Follow us on social media</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Global Startup Ideas Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
