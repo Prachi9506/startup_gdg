@@ -11,7 +11,7 @@ A platform built to inspire and guide aspiring entrepreneurs with **startup idea
 - **Resources** – Access to toolkits, guides, and learning materials.  
 - **Success Stories** – Learn from real-world entrepreneurs and their journeys.  
 - **Roadmap** – Step-by-step guidance to kickstart your own venture.  
-- **Insights** – Articles, trends, and expert opinions on startups.  
+- **Insights** – Articles, trends, and expert opinions on startups.   
 - **Quiz** – Interactive quiz to assess entrepreneurial skills and mindset.  
 
 
