@@ -16,4 +16,3 @@ A platform built to inspire and guide aspiring entrepreneurs with **startup idea
 
 ---
 
-
