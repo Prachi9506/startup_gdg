@@ -14,6 +14,7 @@ A platform built to inspire and guide aspiring entrepreneurs with **startup idea
 - **Insights** – Articles, trends, and expert opinions on startups.  
 - **Quiz** – Interactive quiz to assess entrepreneurial skills and mindset.  
 
+
 ---
 
 
