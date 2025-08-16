@@ -2,7 +2,7 @@
 
 A platform built to inspire and guide aspiring entrepreneurs with **startup ideas, resources, success stories, roadmaps, insights, and interactive quizzes** to fuel innovation and growth.  
 
----
+--- 
  
 ## 🚀 Features  
 
